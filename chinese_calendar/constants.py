@@ -409,6 +409,16 @@ holidays = {
     datetime.date(year=2018, month=10, day=5): Holiday.national_day.value,
     datetime.date(year=2018, month=10, day=6): Holiday.national_day.value,
     datetime.date(year=2018, month=10, day=7): Holiday.national_day.value,
+    datetime.date(year=2018, month=12, day=31): Holiday.new_years_day.value,
+    datetime.date(year=2019, month=1, day=1): Holiday.new_years_day.value,
+    datetime.date(year=2019, month=2, day=4): Holiday.spring_festival.value,
+    datetime.date(year=2019, month=2, day=5): Holiday.spring_festival.value,
+    datetime.date(year=2019, month=2, day=6): Holiday.spring_festival.value,
+    datetime.date(year=2019, month=2, day=7): Holiday.spring_festival.value,
+    datetime.date(year=2019, month=2, day=8): Holiday.spring_festival.value,
+    datetime.date(year=2019, month=2, day=9): Holiday.spring_festival.value,
+    datetime.date(year=2019, month=2, day=10): Holiday.spring_festival.value,
+    datetime.date(year=2019, month=4, day=5): Holiday.tomb_sweeping_day.value,
 }
 
 workdays = {
@@ -506,6 +516,9 @@ workdays = {
     datetime.date(year=2018, month=4, day=28): Holiday.labour_day.value,
     datetime.date(year=2018, month=9, day=29): Holiday.national_day.value,
     datetime.date(year=2018, month=9, day=30): Holiday.national_day.value,
+    datetime.date(year=2018, month=12, day=29): Holiday.new_years_day.value,
+    datetime.date(year=2019, month=2, day=2): Holiday.spring_festival.value,
+    datetime.date(year=2019, month=2, day=3): Holiday.spring_festival.value,
 }
 
 in_lieu_days = {
@@ -603,4 +616,7 @@ in_lieu_days = {
     datetime.date(year=2018, month=4, day=30): Holiday.labour_day.value,
     datetime.date(year=2018, month=10, day=4): Holiday.national_day.value,
     datetime.date(year=2018, month=10, day=5): Holiday.national_day.value,
+    datetime.date(year=2018, month=12, day=31): Holiday.new_years_day.value,
+    datetime.date(year=2019, month=2, day=7): Holiday.spring_festival.value,
+    datetime.date(year=2019, month=2, day=8): Holiday.spring_festival.value,
 }
